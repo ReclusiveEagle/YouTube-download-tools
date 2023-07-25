@@ -15,7 +15,8 @@ The script will do the following in order.
    - Channel.txt
    - Title.txt
 3. Asks user to enter YouTube URL then lists the avalible formats for this video.
-   - *Please open the video then copy the URL. If you right click copy from recommended or home it appends a pre assigned download format and instantly downloads this instead of listing the formats* For example [https://www.youtube.com/watch?v=SWc-Gll-fT8] becomes [https://www.youtube.com/watch?v=SWc-Gll-fT8&pp=wgIGCgQQAhgB] if you right click and copy link. There must only be **one =**
+   - *Please open the video then copy the URL. If you right click copy from recommended or home it appends a pre assigned download format and instantly downloads this instead of listing the formats*
+   - For example [https://www.youtube.com/watch?v=SWc-Gll-fT8] becomes [https://www.youtube.com/watch?v=SWc-Gll-fT8&pp=wgIGCgQQAhgB] if you right click and copy link. There must only be **one =**
   
 4. Asks the user which formats they would like to download and merge into an .mkv container. Also sanatizes file names to be compatible with Windows.
    - Files will be downloaded to /Downloads in the same folder the .bat file is located in, in a folder with with the channel name.
