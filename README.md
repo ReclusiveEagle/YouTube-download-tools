@@ -34,7 +34,7 @@ The script will do the following in order.
   
 7. **Presents the User with a list of thumbnails to select and download from.**
    - Stores list in Thumbnails.txt. CMD then searches the text file for the line containing the selected format and downloads the image with cURL.
-   - Images are renamed to the video name and stored in the folder with the video. More on this later.
+   - Images are renamed to the video name and stored in the folder with the video. More on this below.
   
 8. **Embeds the chosen thumbnail into the .mkv container as the cover.**
     - **Please note:** Microsoft still does not natively support displaying .mkv thumbnails. If you are using VLC, go to tools and select metadata to verify images are being embedded for the day MICROSOFT decides to stop forcing .avi as the only industry standard and fully support .mkv.
