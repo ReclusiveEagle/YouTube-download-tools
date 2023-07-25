@@ -1,4 +1,4 @@
-# Youtube-download-tools
+# YouTube-download-tools
 Personal command line tools for YouTube-DLP.
 
 [**Requires YouTube-DLP**](https://github.com/yt-dlp/yt-dlp)
