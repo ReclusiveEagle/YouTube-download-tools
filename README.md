@@ -12,17 +12,18 @@ This script automates the download process, asking the user for a URL, presentin
 ## Detailed Description:
 The script will do the following in order.
 
-1. CD to the current location the .bat file is in and sets the command line to recognzie Unicode 8 formatting. *Unicode 8 will preserve file names without broken characters and is even able to display emojis*
+1. CD to the current location the .bat file is in and sets the command line to recognzie Unicode 8 formatting.
+   - *Unicode 8 will preserve file names without broken characters and is even able to display emojis*
 
-2. Deletes the following existing temporary files from exited runs of the script if there are any (More on this later.)
+3. Deletes the following existing temporary files from exited runs of the script if there are any (More on this later.)
    - Thumbnails.txt
    - Channel.txt
    - Title.txt
-3. Asks user to enter YouTube URL then lists the available formats for this video.
+4. Asks user to enter YouTube URL then lists the available formats for this video.
    - *Please open the video then copy the URL. If you right click copy from recommended or home it appends a pre assigned download format and instantly downloads this instead of listing the formats*
    - For example [https://www.youtube.com/watch?v=SWc-Gll-fT8] becomes [https://www.youtube.com/watch?v=SWc-Gll-fT8&pp=wgIGCgQQAhgB] if you right click and copy link. There must only be **one =**
   
-4. Asks the user which formats they would like to download and merge into an .mkv container. Also sanitizes file names to be compatible with Windows.
+5. Asks the user which formats they would like to download and merge into an .mkv container. Also sanitizes file names to be compatible with Windows.
    - Files will be downloaded to /Downloads in the same folder the .bat file is located in, in a folder with the channel name.
    - Multiple formats can be downloaded and merged with +. Example 251+140.
    - Sanitizes file names. Replaces [:<>/\?*] with nothing. Replaces | with a -
