@@ -6,7 +6,7 @@ Personal command line tools for YouTube-DLP.
 Comments have been added to the .bat file.
 
 ## Overview:
-This script automates the download process, asking the user for a URL, presenting them with a list of videos to download and then proceeds to download and preserve metadata such as description, video name, channel. Script will also automatically download and embed english subtitles if there are any available. Embedded subtitles are turned off by default and will need to be turned on in a video player such as VLC. 
+This script automates the download process, asking the user for a URL, presenting them with a list of videos to download and then proceeds to download and preserve metadata such as description, video name, channel. Script will also automatically download and embed English subtitles if there are any available. Embedded subtitles are turned off by default and will need to be turned on in a video player such as VLC. 
 
 
 ## Detailed Description:
