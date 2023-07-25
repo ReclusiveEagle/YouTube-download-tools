@@ -26,7 +26,7 @@ The script will do the following in order.
 5. **Asks the user which formats they would like to download and merge into an .mkv container. Also sanitizes file names to be compatible with Windows.**
    - Files will be downloaded to /Downloads in the same folder the .bat file is located in, in a folder with the channel name.
    - Multiple formats can be downloaded and merged with +. Example 251+140.
-   - Sanitizes file names. Replaces [:<>/\?*] with nothing. Replaces | with a -
+   - Sanitizes file names. Replaces **[:<>/\?*]** with nothing. Replaces **|** with a **-**
    - .mkv is a *container format* and does not re-encode videos or audio. Files are preserved as downloaded in the container format and can be extracted with [MKVToolNix](https://mkvtoolnix.download/)
   
 6. **Starts downloading selected formats and saves sanitized title and channel name to temporary text files.**
