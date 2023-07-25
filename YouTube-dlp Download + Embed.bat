@@ -102,28 +102,3 @@ goto start
 :: Stop .bat from exiting
 
 cmd /k
-
-
-
-
-
-
-
-
-
-
-::-------------------------------------------------------------------------------------------
-::Legacy
-
-:: -o "%(uploader)s/%(title)s.%(ext)s" creates a folder with the creators name.
-:: Note when using .bat. a double %% has to be used instead of a single % or the file will be renamed to (uploader)s/(title)s.(ext)s.
-
-
-
-
-:: -s --print-to-file stops the file from downloading. -s works like --skip-download for --print-to-file
-
-
-::Prints filename which contains the video title, watch id, and file extension to text file overwriting the channel name and stores only the video title in %Title%. Set "Title=%Title:~0,-1%" removes blank space before extension.
-
-::set /p Title=<Title.txt
