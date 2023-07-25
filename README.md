@@ -5,9 +5,11 @@ Personal command line tools for YouTube-DLP.
 
 Comments have been added to the .bat file.
 
-## What does this do?
+## Overview:
 This script automates the download process, asking the user for a URL, presenting them with a list of videos to download and then proceeds to download and preserve metadata such as description, video name, channel. Script will also automatically download and embed english subtitles if there are any available. Embedded subtitles are turned off by default and will need to be turned on in a video player such as VLC. 
 
+
+## Detailed Description:
 The script will do the following in order.
 
 1. CD to the current location the .bat file is in and sets the command line to recognzie Unicode 8 formatting. *Unicode 8 will preserve file names without broken characters and is even able to display emojis*
