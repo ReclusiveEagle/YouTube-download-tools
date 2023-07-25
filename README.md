@@ -32,7 +32,7 @@ The script will do the following in order.
 6. **Starts downloading selected formats and saves sanitized title and channel name to temporary text files.**
    - Creates Channel.txt and Title.txt. They are temporary and are used to store variables because CMD is extremely finicky about Unicode character names in variables. These text files are used for CMD to read from later on and will be deleted at the end.
   
-7. **Presents the User with a list of thumbnails to select from and download.**
+7. **Presents the User with a list of thumbnails to select and download from.**
    - Stores list in Thumbnails.txt. CMD then searches the text file for the line containing the selected format and downloads the image with cURL.
    - Images are renamed to the video name and stored in the folder with the video. More on this later.
   
